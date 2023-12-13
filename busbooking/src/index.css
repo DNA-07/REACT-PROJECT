@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family:'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background: url(https://img.freepik.com/premium-vector/internet-service-book-buy-bus-ticket-travel-tourism-concept-tourist-planning-trip-online-passengers-buying-tickets-bus-mobile-app_458444-1390.jpg?w=1380);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

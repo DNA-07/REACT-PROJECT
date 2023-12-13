@@ -1,0 +1,116 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 100px;
+    padding-bottom: 0%;
+    width:450px;
+    height: 390px;
+    border: 2px solid rgba(255,255,255, .2);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin-top: 30px;
+    gap:9px;
+}
+.text{
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 32%;
+}
+/* #underline
+{
+    margin-left: 275px;
+    width:61px;
+    height:6px;
+    background: rgb(23, 98, 163);
+    border-radius: 9px;
+    
+} */
+#inputs
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    gap:20px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width:380px;
+    height: 50px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+}
+.input img{
+    margin:0px 30px;
+}
+.input input{
+    height:50px;
+    width:400px;
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 19px;
+}
+
+.forgot-password{
+    padding-left:25px;
+    margin-top: 27px;
+    margin-left: 50px;
+    color:#000000;
+    font-size: 18px;
+}
+.forgot-password span{
+    color: #a09bed;
+    cursor: pointer;
+}
+.submitcontainer{
+    display: flex;
+    gap:30px;
+    margin:50px auto;
+    text-decoration: none;
+    
+    
+    
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:50px;
+    color: #f6f3f3;
+    background-color: #c6c6d1;
+    border-radius: 50px;
+    cursor: pointer;
+}  
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:40px;
+    color: #fff;
+    margin-left: 10px;;
+    background: #1628b1;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+.button-link{
+    text-decoration: none;
+    color: #fff;
+}
